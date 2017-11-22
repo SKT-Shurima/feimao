@@ -18,17 +18,17 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
-    port: 8066,
+    port: 8022,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        '/api_name': {
-            target: 'api_host',
-            changeOrigin: true,
-            pathRewrite: {
-                '^/api_name': '/'
-            }
+      '/feimao': {
+        target:'http://feimao.zertone1.com',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/feimao': '/'
         }
+      }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README

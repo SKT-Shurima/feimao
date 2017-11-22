@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
+    "axios": "^0.17.1",
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
     "babel-plugin-transform-runtime": "^6.0.0",
@@ -31,6 +32,8 @@
     "html-webpack-plugin": "^2.8.1",
     "http-proxy-middleware": "^0.17.2",
     "json-loader": "^0.5.4",
+    "md5": "^2.2.1",
+    "mint-ui": "^2.2.10",
     "node-sass": "^4.5.3",
     "opn": "^4.0.2",
     "ora": "^0.3.0",
